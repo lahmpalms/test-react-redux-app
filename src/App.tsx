@@ -18,7 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index path="/manageForm" element={<ManageForm />} />
-          <Route index path="/manageLayout" element={<ManageLayout />} />
+          <Route  path="/manageLayout" element={<ManageLayout />} />
         </Route>
       </Routes>
     </Router>
