@@ -1,25 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import { Button } from 'antd';
+// import { useSelector, useDispatch } from 'react-redux';
+// import { increment, decrement } from './counterSlice';
+// import { RootState } from './store';
+import MainLayout from './Layout/MainLayout';
+import ManageForm from './pages/ManageForm';
+import ManageLayout from './pages/ManageLayout';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 
 function App() {
+  // const counter = useSelector((state: RootState) => state.counter.value);
+  // const dispatch = useDispatch();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainLayout />}>
+          <Route index path="/manageForm" element={<ManageForm />} />
+          <Route index path="/manageLayout" element={<ManageLayout />} />
+        </Route>
+      </Routes>
+    </Router>
+
+
   );
 }
 

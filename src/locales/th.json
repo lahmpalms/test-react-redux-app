@@ -1,0 +1,15 @@
+{
+  "greeting": "สวัสดี",
+  "buttonLabel": "คลิกที่นี่",
+  "menu" : {
+    "menuManageForm":"จัดการฟอร์ม",
+    "menuManageLayout":"จัดการเลย์เอาท์"
+  },
+  "form": {
+    "title":"การจัดการหน้าฟอร์ม",
+    "prefix":"คำนำหน้าชื่อ",
+    "prefixmr":"นาย",
+    "prefixms":"นาง",
+    "prefixmrs":"นางสาว"
+  }
+}

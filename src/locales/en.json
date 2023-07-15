@@ -1,0 +1,15 @@
+{
+  "greeting": "Hello",
+  "buttonLabel": "Click Here",
+  "menu": {
+    "menuManageForm": "Manage Form",
+    "menuManageLayout": "Manage Layout"
+  },
+  "form": {
+    "title": "Form management page",
+    "prefix": "prefix",
+    "prefixmr":"Mr.",
+    "prefixms":"Ms.",
+    "prefixmrs":"Mrs."
+  }
+}
