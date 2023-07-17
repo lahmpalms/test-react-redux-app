@@ -1,0 +1,19 @@
+
+.c--1 {
+width: 200px;
+height:200px;
+background-color:red;  
+border-radius: 50%;
+}
+
+.c--2 {
+width: 200px;
+height:200px;
+background-color:blue;
+border-radius: 20%;
+}
+.c--3 {
+width: 200px;
+height:200px;
+background-color:green;  
+}

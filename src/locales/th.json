@@ -1,0 +1,30 @@
+{
+  "greeting": "สวัสดี",
+  "buttonLabel": "คลิกที่นี่",
+  "menu" : {
+    "menuManageForm":"จัดการฟอร์ม",
+    "menuManageLayout":"จัดการเลย์เอาท์"
+  },
+  "form": {
+    "title":"การจัดการหน้าฟอร์ม",
+    "prefix":"คำนำหน้าชื่อ",
+    "prefixmr":"นาย",
+    "prefixms":"นาง",
+    "prefixmrs":"นางสาว",
+    "firstname":"ชื่อจริง",
+    "lastname":"นามสกุล",
+    "birthdate" : "วันเกิด",
+    "nationality" : "สัญชาติ",
+    "placeholderNationality" : "กรุณาเลือกสัญชาติ",
+    "nationalityThai" : "สัญชาติไทย",
+    "nationalityOther" : "สัญชาติอื่นๆ",
+    "idCard": "เลขบัตรประชาชน",
+    "gender" : "เพศ",
+    "male": "เพศชาย",
+    "female": "เพศหญิง",
+    "none": "ไม่ระบุ",
+    "tel" : "เบอร์โทรศัพท์มือถือ",
+    "passport": "พาสปอร์ต",
+    "salary" : "เงินเดือนที่คาดหวัง"
+  }
+}

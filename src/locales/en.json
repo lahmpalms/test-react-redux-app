@@ -1,0 +1,30 @@
+{
+  "greeting": "Hello",
+  "buttonLabel": "Click Here",
+  "menu": {
+    "menuManageForm": "Manage Form",
+    "menuManageLayout": "Manage Layout"
+  },
+  "form": {
+    "title": "Form management page",
+    "prefix": "Prefix",
+    "prefixmr": "Mr.",
+    "prefixms": "Ms.",
+    "prefixmrs": "Mrs.",
+    "firstname": "Firstname",
+    "lastname": "Lastname",
+    "birthdate": "Birthdate",
+    "nationality": "Nationality",
+    "placeholderNationality": "Please select a nationality",
+    "nationalityThai": "Thai",
+    "nationalityOther": "Other",
+    "idCard": "Id Card",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "none": "None",
+    "tel": "Telephone",
+    "passport": "Passport",
+    "salary" : "Salary"
+  }
+}
