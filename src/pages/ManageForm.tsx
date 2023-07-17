@@ -12,9 +12,6 @@ import {
   RadioChangeEvent,
   Table,
 } from 'antd';
-import {
-  EditOutlined
-} from '@ant-design/icons';
 import { useSelector, useDispatch } from 'react-redux';
 import { RootState } from '../store';
 import { setPrefixName, setFirstname, setLastname, setBirthdate, setNationality, setIdCard, setGender, setTel, setPassport, setSalary, resetForm } from '../Redux/formSlice';
